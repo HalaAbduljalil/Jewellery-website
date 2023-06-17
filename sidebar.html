@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <title>MARJAN</title>
+    <link rel="stylesheet " href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" >
+
+    <link rel="shortcut icon" href="imagesMarjan/marjanLOGO.png" type="imagesMarjan/marjanLOGO.png">    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <link rel="stylesheet" href="style333.css">
+</head>
+<body>
+<input type="checkbox" id="nav-toggle">
+<div class="sidebar">
+<div class="sidebar-brand">
+  <h2> <span class="lab la-accusoft"></span> <span>MARJAN</span></h2>
+</div>
+<div class="sidebar-menu">
+ <ul>
+ <li>
+   <a href="sidebar.html" class="active" id="dash"><span class="las la-users"></span>
+       <span>Dashboard</span></a>
+ </li>
+     <li>
+         <a href="coustomer1.php" id="add"  ><span class="las la-igloo"></span>
+             <span >add items</span></a>
+     </li>
+     <li>
+
+        <a   href="removeItem.php" id="remove"><span class="las la-clipboard-list"></span>
+             <span>remove item</span></a>
+     </li>
+     <li>
+         <a href="addAdmin.php"id="admin"><span class="las la-shipping-bag"></span>
+             <span>add admin</span></a>
+     </li>
+     <li>
+         <a href="charts.php"id="chart"><span class="las la-receipt"></span>
+             <span>Charts</span></a>
+
+     </li>
+<!--     <li>-->
+<!--         <a href=""><span class="las la-user-circle"></span>-->
+<!--             <span>Accounts</span></a>-->
+<!--     </li>-->
+
+
+ </ul>
+   <a href="loginPage.php"> <button class="submit-btn"> logout</button></a>
+</div>
+</div>
+<script>
+let btndash=document.getElementById('dash');
+btndash.addEventListener('click',()=>btndash.style.background='#fff');
+btndash.addEventListener('click',()=>btndash.style.color='#DD2F6E');
+btndash.addEventListener('click',()=>btndash.style.borderRadius='30px 0px 0px 30px');
+
+let btnadditem=document.getElementById('add');
+btnadditem.addEventListener('click',()=>btnadditem.style.background='#fff');
+btnadditem.addEventListener('click',()=>btnadditem.style.color='#DD2F6E');
+btnadditem.addEventListener('click',()=>btnadditem.style.borderRadius='30px 0px 0px 30px');
+
+let btnremoveitem=document.getElementById('remove');
+btnremoveitem.addEventListener('click',()=>btnremoveitem.style.background='#fff');
+btnremoveitem.addEventListener('click',()=>btnremoveitem.style.color='#DD2F6E');
+btnremoveitem.addEventListener('click',()=>btnremoveitem.style.borderRadius='30px 0px 0px 30px');
+
+let btnadmin=document.getElementById('admin');
+btnadmin.addEventListener('click',()=>btnadmin.style.background='#fff');
+btnadmin.addEventListener('click',()=>btnadmin.style.color='#DD2F6E');
+btnadmin.addEventListener('click',()=>btnadmin.style.borderRadius='30px 0px 0px 30px');
+
+let btnchart=document.getElementById('chart');
+btnchart.addEventListener('click',()=>btnchart.style.background='#fff');
+btnchart.addEventListener('click',()=>btnchart.style.color='#DD2F6E');
+btnchart.addEventListener('click',()=>btnchart.style.borderRadius='30px 0px 0px 30px');
+
+
+</script>
+</body>
+</html>
+
+
+
+

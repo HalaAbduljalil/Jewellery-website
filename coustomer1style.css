@@ -1,0 +1,109 @@
+
+.form-box
+{
+    width: 420px;
+    height: 560px;
+    position: relative;
+    box-shadow: 0 0 20px 0 #def0f3;
+    border: 1px solid #def0f3;
+    margin:  10% auto;
+    padding: 5px;
+    overflow: hidden;
+}
+.form-box1
+{
+    width: 420px;
+    height: 350px;
+
+    position: fixed;
+    box-shadow: 0 0 20px 0 #def0f3;
+    border: 1px solid #def0f3;
+    margin:  auto  40%;
+    margin-top: -100px;
+    padding: 5px;
+    overflow: hidden;
+}
+.form-box3
+{
+    width: 420px;
+    height: 350px;
+
+    position: center;
+    box-shadow: 0 0 20px 0 #def0f3;
+    border: 1px solid #def0f3;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 5px;
+    overflow: hidden;
+}
+.form-box2
+{
+    width: 420px;
+    height: 280px;
+
+    position: fixed;
+    box-shadow: 0 0 20px 0 #def0f3;
+    border: 1px solid #def0f3;
+    margin:  auto  40%;
+    margin-top: 10%;
+    padding: 5px;
+    overflow: hidden;
+}
+select
+{
+    width: 90%;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #EF9A9A;
+    padding: 20px 0;
+}
+
+
+
+.social_icons
+{
+    margin: 30px auto;
+    text-align: center;
+}
+.social_icons img
+{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #def0f3;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.input-field
+{
+    width: 90%;
+    padding: 20px 0;
+    margin:  0px 0 ;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #EF9A9A;
+    outline: none;
+    background: transparent;
+}
+.submit-btn
+{
+    width: 85%;
+    padding: 10px 60px;
+    cursor: pointer;
+    display: block;
+    margin: 20% auto;
+
+    background: linear-gradient(to right,#def0f3,#EF9A9A);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+/*.check-box*/
+/*{*/
+/*    margin: 30px 10px 30px 0 ;*/
+/*}*/
+
+
+
